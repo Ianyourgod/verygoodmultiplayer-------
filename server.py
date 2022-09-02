@@ -30,7 +30,7 @@ def render():
     return ret
 
 @app.route('/updot')
-def acp1():
+def client():
     global p1
     player = int(request.args.get('player'))
     try:
