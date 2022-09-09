@@ -29,6 +29,10 @@ def render():
         ret += "<br>"
     return ret
 
+@app.route("/")
+def home():
+    return 'homepage'
+
 @app.route('/updot')
 def acp1():
     global p1
